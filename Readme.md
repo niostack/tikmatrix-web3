@@ -20,12 +20,9 @@ truffle init
 在`contracts`目录下创建一个名为`Stablecoin.sol`的文件实现一个简单的稳定币合约.
 在`contracts`目录下创建一个名为`StablecoinPayment.sol`的文件实现一个在线收取稳定币的智能合约，并在用户支付后自动调用发货链接。
 
-```solidity
-
 ### 步骤4：编写迁移脚本
 
 在`migrations`目录下创建一个新的迁移脚本`2_deploy_contracts.js`，用于部署`StablecoinPayment`合约。
-
 
 ### 步骤5：编写测试用例
 
