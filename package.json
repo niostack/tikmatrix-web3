@@ -1,5 +1,15 @@
 {
+  "name": "my-contracts",
+  "version": "1.0.0",
+  "description": "My contracts",
+  "scripts": {
+    "ganache": "ganache-cli",
+    "compile": "truffle compile",
+    "migrate-development": "truffle migrate --network development",
+    "test": "truffle test"
+  },
   "dependencies": {
-    "@openzeppelin/contracts": "^5.2.0"
+    "@openzeppelin/contracts": "^5.2.0",
+    "my-contracts": "file:"
   }
 }
